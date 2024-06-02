@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
+// icons
 import { RiMenu4Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import { BiSearchAlt } from "react-icons/bi";
 import { useState } from 'react';
+// images
 import SagunBaplaLogo from '/Images/SagunBapla_logo.png'
-import { Link } from 'react-router-dom';
 
 function Header() {
     const [toggle, setToggle] = useState(false)
@@ -18,52 +21,34 @@ function Header() {
             <div className='flex flex-col w-11/12 min-h-42 bg-transparent justify-between  m-auto'>
                 <div className='flex flex-row justify-between items-center '>
                     <div className='flex flex-row items-center '>
-                        <img className='md:w-[120px] h-22 w-[70px] inline' src={SagunBaplaLogo} alt="" />
+                       
                         <Link to='/'>
-                        <h1 className='font-bold md:text-[28px] text-pink-400  font-sans text-[20px]'>Hellow World</h1>
+                        <h1 className=' font-bold md:text-[32px] text-pink-400  font-sans text-[22px]'><span>&lt;</span> Cody Balram <span> &#8725; &gt;</span></h1>
                         </Link>
                     </div>
-                    <div     >
-
+                    <div>
                         <div className='hidden   lg:flex  relative '>
                             <div className=' ml-1 mt-[9px] absolute' >
-                                <BiSearchAlt className=' w-[25px] h-[25px] opacity-50 ' />
+                                <BiSearchAlt className=' w-[20px] h-[20px] opacity-70 text-white ' />
                             </div>
                             <input className=' min-w-[550px] min-h-10 border-slate-400 text-slate-400 rounded outline-none border pl-12 pr-3' type="search" placeholder='Search by product title' />
-
                         </div>
-
                     </div>
                     <div>
                         <Link to='/login'>
                         <button className='hidden  lg:flex bg-gradient-to-r from-cyan-500 to-blue-500  hover:border-slate-400 text-white pl-5 pr-5 pt-[7px] pb-[7px] border-none rounded text-xl '>Login/Register </button>
                         </Link>
-
                         <div className=' flex gap-4 items-center '>
-
                             <BiSearchAlt onClick={() => setSearchToggle(!searchToggle)} className='w-[25px] h-[25px]  cursor-pointer lg:hidden  block' />
-
-
-
-
-
                             {
                                 toggle ?
-
                                     <AiOutlineClose onClick={() => setToggle(!toggle)} className='h-7 w-7 cursor-pointer lg:hidden  block' />
                                     :
                                     <RiMenu4Fill onClick={() => setToggle(!toggle)} className='h-8 w-8 cursor-pointer lg:hidden  block ' />
                             }
                         </div>
-
                     </div>
                 </div>
-
-
-
-            
-
-
                 {/* header lower part whene menus lie */}
                 <div className='w-full '>
                     <nav className='hidden   lg:flex'>
