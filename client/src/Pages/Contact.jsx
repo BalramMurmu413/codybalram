@@ -18,12 +18,12 @@ export default function Contact() {
         <div className='  w-full '>
           <div className='w-full  flex items-center justify-center'>
 
-        <h1 className='md:text-4xl font-extrabold text-indigo-500'>Get In Touch</h1>
+        <h1 className='md:text-4xl font-extrabold text-1xl text-white  '>Get In Touch</h1>
           </div>
           <div className=' flex flex-wrap justify-around  w-full mt-28   '>
             <div className='bg-white rounded-lg flex items-center hover:scale-110 transition-all  flex-col my-4 py-2 h-44 w-44'>
               <  FaLocationDot className='
-               w-[30px] h-[30px] md:w-[50px] md:h-[50px] '/>
+               w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
               <h2 className='sm:font-medium md:font-semibold my-3'>Our Main Office</h2>
               <p className='text-center'>SoHo 94 Broadway St New York, Ny 101</p>
             </div>
@@ -85,7 +85,7 @@ export default function Contact() {
                 </div>
               </form>
             </div>
-            <div className='w-1/2 h-60  flex flex-col justify-around pl-5'>
+            <div className='w-1/2 h-60 m-auto flex flex-col justify-around pl-5'>
               <div>
              <h1 className='md:text-4xl font-bold text-white'>Get in Touch</h1>
               </div>

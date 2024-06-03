@@ -18,7 +18,7 @@ function Header() {
             {/* header container closing tag */}
 
             {/* header uppper part */}
-            <div className='flex flex-col w-11/12 min-h-42 bg-transparent justify-between  m-auto'>
+            <div className='flex flex-col w-11/12 min-h-42 bg-slate-800 justify-between  m-auto'>
                 <div className='flex flex-row justify-between items-center '>
                     <div className='flex flex-row items-center '>
                        
@@ -36,7 +36,7 @@ function Header() {
                     </div>
                     <div>
                         <Link to='/login'>
-                        <button className='hidden  lg:flex bg-gradient-to-r from-cyan-500 to-blue-500  hover:border-slate-400 text-white pl-5 pr-5 pt-[7px] pb-[7px] border-none rounded text-xl '>Login/Register </button>
+                        <button className='hidden  lg:flex bg-slate-900   hover:border-slate-400 text-white pl-5 pr-5 pt-[7px] pb-[7px] border-2 rounded text-xl '>Login/Register </button>
                         </Link>
                         <div className=' flex gap-4 items-center '>
                             <BiSearchAlt onClick={() => setSearchToggle(!searchToggle)} className='w-[25px] h-[25px]  cursor-pointer lg:hidden  block' />

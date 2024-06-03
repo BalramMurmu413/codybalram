@@ -6,7 +6,7 @@ import { BsWhatsapp } from "react-icons/bs";
 function Footer() {
   return (
     <footer >
-      <div className='bg-pink-400 py-16 border-4 rounded-xl text-slate-100 md:flex justify-around  w-full h-58  grid grid-cols-2  '>
+      <div className=' bg-slate-900 py-16 border-4 rounded-xl text-slate-100 md:flex justify-around  w-full h-58  grid grid-cols-2  '>
 
         <div className='mx-4'>
           <h1 className='font-bold text-2xl'> Founder <hr className='font-semibold text-indigo-600' /> </h1>

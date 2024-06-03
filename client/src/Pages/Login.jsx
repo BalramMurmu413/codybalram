@@ -13,14 +13,14 @@ export default function Login() {
           <Link to='/'>
           <Header />
           </Link>
-          <div className='w-full select-none h-screen bg-white rounded-xl text-black flex flex-row justify-around items-center'>
+          <div className='w-full select-none h-screen  bg-slate-900 rounded-xl text-white flex flex-row justify-around items-center'>
 {/* left  */}
               <div className='hidden md:block '>
                   <img src={sample}  alt="" className=' bg-contain bg-center h-[640px]' />
               </div>
          
          {/* right */}
-              <div className=' bg-slate-100 w-full md:w-1/3 h-screen flex flex-col items-center justify-around '>
+              <div className=' bg-slate-900 w-full md:w-1/3 h-screen flex flex-col items-center justify-around '>
                   <div>
                   <h1 className='text-2xl md:text-3xl font-bold text-center'>Welcome Back !</h1>
                       <p>login with gmail or username </p>
@@ -33,11 +33,11 @@ export default function Login() {
                       <div className='flex flex-col  items-start'>
                           <label > Username                              
                           </label>
-                          <input type="text"  placeholder='Username' className='py-1 px-2 outline-none rounded-full' />
+                          <input type="text"  placeholder='Username' className='text-black py-1 px-2 outline-none rounded-full' />
                           <label >
                               Password 
                           </label> 
-                          <input type="password" placeholder='********'  className='py-1 px-2 outline-none rounded-full' />
+                          <input type="password" placeholder='********'  className='text-black py-1 px-2 outline-none rounded-full' />
                           <p className='text-blue-500 cursor-pointer text-sm underline'>Forgot User Id or Password?</p>
                           <button className='bg-sky-300 py-2 font-semibold text-white my-3 w-full rounded-lg'>Login</button>
                       </div>
