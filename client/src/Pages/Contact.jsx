@@ -18,7 +18,7 @@ export default function Contact() {
         <div className='  w-full '>
           <div className='w-full  flex items-center justify-center'>
 
-        <h1 className='md:text-4xl font-extrabold text-1xl text-white  '>Get In Touch</h1>
+        <h1 className='md:text-4xl font-extrabold text-1xl text-white cursor-default select-none  '>Get In Touch</h1>
           </div>
           <div className=' flex flex-wrap justify-around  w-full my-10   '>
             <div className='bg-white rounded-lg flex items-center hover:scale-110 transition-all  flex-col my-4 py-2   md:h-36 w-44'>

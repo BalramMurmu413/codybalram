@@ -2,13 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 // icons
-import { RiMenu4Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import { BiSearchAlt } from "react-icons/bi";
 import { RiMenu3Line } from "react-icons/ri";
 import { useState } from 'react';
 // images
-import SagunBaplaLogo from '/Images/SagunBapla_logo.png'
 
 function Header() {
     const [toggle, setToggle] = useState(false)
@@ -44,26 +42,26 @@ function Header() {
                             <BiSearchAlt onClick={() => setSearchToggle(!searchToggle)} className='w-[25px] h-[25px]  cursor-pointer text-pink-500 lg:hidden  block' />
                             {
                                 toggle ?
-                                    <AiOutlineClose onClick={() => setToggle(!toggle)} className='h-7 w-7 cursor-pointer lg:hidden text-pink-500 block' />
+                                    <AiOutlineClose onClick={() => setToggle(!toggle)} className='h-6 w-6 cursor-pointer lg:hidden text-pink-500 block' />
                                     :
-                                    <RiMenu3Line onClick={() => setToggle(!toggle)} className='h-8 w-8 cursor-pointer text-pink-500 lg:hidden  block ' />
+                                    <RiMenu3Line onClick={() => setToggle(!toggle)} className='h-6 w-6 cursor-pointer text-pink-500 lg:hidden  block ' />
                             }
                         </div>
                     </div>
                 </div>
                 {/* header lower part whene menus lie */}
-                <div className='w-full '>
+                <div className='w-full my-5 '>
                     <nav className='hidden   lg:flex'>
-                        <ul className='w-full flex flex-row justify-between text-[17px]  font-semibold text-slate-400'>
-                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Raybar</li>
+                        <ul className='w-full flex flex-row justify-between font-semibold text-slate-400'>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Courses</li>
                             <Link to='/chat'>
-                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Chat </li>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Services</li>
                             </Link>
-                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Job Portal</li>
-                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Notification</li>
-                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Become an affiliate</li>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none font-semibold rounded text-white '>Our Client</li>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Notification</li>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Become an affiliate</li>
                             <Link to='/contact'>
-                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Contact</li>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Contact</li>
                             </Link>
                         </ul>
                     </nav>
@@ -76,22 +74,22 @@ function Header() {
                 <input className='fixed hidden  md:hidden min-w-[300px] min-h-10 border-slate-400 rounded outline-none border pl-12 pr-3' type="search" placeholder='Search by product title' />
             </div>
             <div className=' md:hidden block'>
-                <nav className={`   fixed -mt-20 bg-gradient-to-r from-purple-500 to-pink-500 w-full h-screen block transition-all duration-25  ${toggle ? 'left-0' : 'left-[-100%]'}`}>
-                    <div className='bg-slate-100 min-h-[70px] flex items-center justify-center '>
+                <nav className={`   fixed -mt-20 bg-slate-900 w-full h-screen block transition-all duration-25  ${toggle ? 'left-0' : 'left-[-100%]'}`}>
+                    <div className='bg-slate-700 min-h-[70px] flex items-center justify-center '>
        
                         <Link to='/login'>
-                            <button className='  text-white px-3 border-none rounded text-[14px] font-semibold '> Login/Register </button>
+                            <button className='  text-white px-3 border-none rounded text-[14px]font-bold  '> Login/Register </button>
                         </Link>       
                      
                     </div>
                     <ul className=' flex flex-col items-start text-white text-[15px]  ml-2 mt-8 font-semibold '>
-                        <li className='hover:bg-gradient-to-r  from-cyan-500 to-blue-500 pt-2 m-1 cursor-pointer pb-2 pl-4 pr-4 border-none rounded '>Raybar </li>
-                        <li className='hover:hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '> Chat Box </li>
-                        <li className='hover:hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '> Search </li>
-                        <li className='hover:hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Request</li>
-                        <li className='hover:hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Comment</li>
+                        <li className='hover:bg-slate-700 pt-2 m-1 cursor-pointer pb-2 pl-4 pr-4 border-none rounded '>Raybar </li>
+                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '> Chat Box </li>
+                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '> Search </li>
+                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Request</li>
+                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Comment</li>
                         <Link to='/contact'>
-                    <li className='hover:hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Contact Us</li>
+                    <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Contact Us</li>
                     </Link>
                     </ul>
                 </nav>
