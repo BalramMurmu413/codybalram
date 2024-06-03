@@ -7,8 +7,9 @@ import Login from './Pages/Login.jsx'
 import Contact from './Pages/Contact.jsx'
 import Chat from './Pages/Chat.jsx'
 import CreateProfile from './Pages/CreateProfile.jsx'
-
 import Logout from './Components/HomePage.jsx'
+import MaintanancePage from './Pages/MaintanancePage.jsx';
+
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
             <Route path="/chat" element={<Chat />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/createProfile" element={<CreateProfile />} />
+            <Route path="/maintanancePage" element={<MaintanancePage />} />
+            <Route path="/logout" element={<Logout />} />
 
           </Routes>
     </>

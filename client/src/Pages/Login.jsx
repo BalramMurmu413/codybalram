@@ -1,5 +1,5 @@
 import React from 'react'
-import sample from '/Images/handbride.jpeg'
+import sample from '/Images/computer.jpg'
 import { Link } from 'react-router-dom'
 
 // Component

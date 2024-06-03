@@ -8,6 +8,7 @@ import { RiMenu3Line } from "react-icons/ri";
 import { useState } from 'react';
 // images
 
+import MaintanancePage from '../Pages/MaintanancePage.jsx';
 function Header() {
     const [toggle, setToggle] = useState(false)
     const [searchToggle, setSearchToggle] = useState(false)
@@ -54,12 +55,20 @@ function Header() {
                     <nav className='hidden   lg:flex'>
                         <ul className='w-full flex flex-row justify-between font-semibold text-slate-400'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Courses</li>
-                            <Link to='/chat'>
+                            <Link to='/maintanancePage'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Services</li>
                             </Link>
+                            <Link to='/maintanancePage'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none font-semibold rounded text-white '>Our Client</li>
+                            </Link>
+
+                            <Link to='/maintanancePage'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Notification</li>
+                            </Link>
+
+                            <Link to='/maintanancePage'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Become an affiliate</li>
+                            </Link>
                             <Link to='/contact'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Contact</li>
                             </Link>
@@ -83,11 +92,21 @@ function Header() {
                      
                     </div>
                     <ul className=' flex flex-col items-start text-white text-[15px]  ml-2 mt-8 font-semibold '>
-                        <li className='hover:bg-slate-700 pt-2 m-1 cursor-pointer pb-2 pl-4 pr-4 border-none rounded '>Raybar </li>
-                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '> Chat Box </li>
-                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '> Search </li>
-                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Request</li>
-                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Comment</li>
+                        <Link to='/maintanancePage'>
+                        <li className='hover:bg-slate-700 pt-2 m-1 cursor-pointer pb-2 pl-4 pr-4 border-none rounded '>Courses</li>
+                        </Link>
+                        <Link to='/maintanancePage'>
+                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Services </li>
+                        </Link>
+                        <Link to='/maintanancePage'>
+
+                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Products</li>
+                        </Link>
+                        <Link to='/maintanancePage'>
+                            
+                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Contact</li>
+                        </Link>
+                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Hire ME</li>
                         <Link to='/contact'>
                     <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Contact Us</li>
                     </Link>

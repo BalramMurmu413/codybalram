@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import sample from '/Images/handbride.jpeg'
+import sample from '/Images/computer.jpg'
 
 
 import Header from '../Components/Header.jsx'
