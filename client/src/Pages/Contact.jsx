@@ -50,33 +50,33 @@ export default function Contact() {
    </div>
           </div>
         </div>
-        <div className=' items-center bg-slate-900  justify-around flex flex-row w-screen '>
-          <div className='item-center justify-around flex flex-col-reverse md:flex-row'>
+        <div className='  bg-slate-900  justify-around  flex flex-row w-screen  '>
+          <div className='item-center justify-around flex flex-col-reverse md:flex-row '>
             <div>
-              <form action="" method="post " className='flex flex-col my-16 p-4  justify-between '>
-                <div className='w-full flex flex-row '>
-                  <div>
-                  <label htmlFor="" className='text-white  font-bold '>Email <br />
-                <input type="email" name="email" required placeholder="Enter a valid email address" className=' md:border-b-4 rounded-s-none outline-none bg-transparent '  />
+              <form action="" method="post " className='flex flex-col my-1 p-4   '>
+                <div className='w-full flex md:flex-row flex-col mx-2   '>
+                  <div >
+                  <label htmlFor="" className='text-white  flex items-start flex-col font-bold '>Email <br />
+                <input type="email" name="email" required placeholder="Enter email address..." className='  md:border-b-2 outline-none bg-transparent font-semibold '  />
                   </label>
                   </div>
+
                   <div>
-
-                  <label htmlFor="" className='text-white font-bold'>
+                  <label htmlFor="" className='text-white font-bold  flex items-start flex-col'>
                     Name  <br />
-                <input type="text" name="name" required placeholder="Enter your name" className='bg-transparent md:border-b-4 outline-none  decoration-solid' />
-
+                <input type="text" name="name" required placeholder="Enter your name..." className='  bg-transparent md:border-b-2 outline-none  font-semibold' />
                   </label>
                   </div>
                 </div>
                 <div>
                   <label htmlFor="" className='text-white font-bold'>Message <br />
                     <textarea name="message" placeholder="Message" className='bg-transparent border text-white outline-none'> 
+
                     </textarea>
                   </label>
                 </div>
                 <div>
-                  <button className='bg-slate-600 text-white py-2 px-6 font-semibold rounded-sm border '> Send </button>
+                  <button className=   ' hover:bg-slate-900 bg-slate-800 text-white py-2 px-6 font-semibold rounded-sm border '> Send </button>
                 </div>
               </form>
             </div>

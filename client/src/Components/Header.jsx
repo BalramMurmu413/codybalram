@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { RiMenu4Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import { BiSearchAlt } from "react-icons/bi";
+import { RiMenu3Line } from "react-icons/ri";
 import { useState } from 'react';
 // images
 import SagunBaplaLogo from '/Images/SagunBapla_logo.png'
@@ -40,12 +41,12 @@ function Header() {
 
                         </Link>
                         <div className=' flex gap-4 items-center '>
-                            <BiSearchAlt onClick={() => setSearchToggle(!searchToggle)} className='w-[25px] h-[25px]  cursor-pointer lg:hidden  block' />
+                            <BiSearchAlt onClick={() => setSearchToggle(!searchToggle)} className='w-[25px] h-[25px]  cursor-pointer text-pink-500 lg:hidden  block' />
                             {
                                 toggle ?
-                                    <AiOutlineClose onClick={() => setToggle(!toggle)} className='h-7 w-7 cursor-pointer lg:hidden  block' />
+                                    <AiOutlineClose onClick={() => setToggle(!toggle)} className='h-7 w-7 cursor-pointer lg:hidden text-pink-500 block' />
                                     :
-                                    <RiMenu4Fill onClick={() => setToggle(!toggle)} className='h-8 w-8 cursor-pointer lg:hidden  block ' />
+                                    <RiMenu3Line onClick={() => setToggle(!toggle)} className='h-8 w-8 cursor-pointer text-pink-500 lg:hidden  block ' />
                             }
                         </div>
                     </div>
