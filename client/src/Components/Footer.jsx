@@ -1,7 +1,9 @@
 import React from 'react'
-import { FaFacebookF } from "react-icons/fa6";
-import { IoLogoInstagram } from "react-icons/io5";
-import { BsWhatsapp } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { IoLogoWhatsapp } from "react-icons/io";
+
+
 
 function Footer() {
   return (
@@ -17,9 +19,11 @@ function Footer() {
 
             <div >
               <ul className='flex flex-row gap-4' >
-              <li><FaFacebookF className='h-50'/> </li>
-              <li><IoLogoInstagram className='h-50'/> </li>
-              <li><BsWhatsapp className='h-50' /> </li>
+              <li className='mx-5 cursor-pointer '><FaXTwitter className='w-[30px] h-[30px] text-white hover:scale-125 transition-all border-zinc-300  rounded-full  '/></li>
+                  <li className='mx-5 cursor-pointer '><FaSquareInstagram className='w-[30px] h-[30px]  text-white  hover:scale-125 transition-all border-zinc-300  rounded-full  '/></li>
+<li className='mx-5 cursor-pointer '><IoLogoWhatsapp className='w-[30px] h-[30px]     text-white  hover:scale-125 transition-all border-zinc-300   rounded-full '/></li>
+
+                  
               </ul>
           </div>
         </div>
@@ -48,8 +52,9 @@ function Footer() {
 
           </div>
         </div>
-        <div className='mx-4'>
-          <h1 className='font-bold text-2xl'>Product <hr /> </h1>
+        <div className='mx-5'>
+        <h1  className='font-bold text-2xl '>Product <hr /> </h1>
+          
           <div className='flex flex-row gap-5'>
             <div>
               <ul className='flex flex-col items-start'>

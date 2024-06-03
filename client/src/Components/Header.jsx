@@ -23,7 +23,7 @@ function Header() {
                     <div className='flex flex-row items-center '>
                        
                         <Link to='/'>
-                        <h1 className=' font-bold md:text-[32px] text-pink-400  font-sans text-[22px]'><span>&lt;</span> Cody Balram <span> &#8725; &gt;</span></h1>
+                        <h1 className=' font-bold md:text-[32px] text-pink-400  font-sans text-[22px]'><span>&lt;</span> CodyBalram <span> &#8725; &gt;</span></h1>
                         </Link>
                     </div>
                     <div>
@@ -31,12 +31,13 @@ function Header() {
                             <div className=' ml-1 mt-[9px] absolute' >
                                 <BiSearchAlt className=' w-[20px] h-[20px] opacity-70 text-white ' />
                             </div>
-                            <input className=' min-w-[550px] min-h-10 border-slate-400 text-slate-400 rounded outline-none border pl-12 pr-3' type="search" placeholder='Search by product title' />
+                            <input className=' min-w-[550px] min-h-10 bg-slate-700 border-slate-100 text-slate-100 rounded outline-none border pl-12 pr-3' type="search" placeholder='Search by product title' />
                         </div>
                     </div>
                     <div>
                         <Link to='/login'>
-                        <button className='hidden  lg:flex bg-slate-900   hover:border-slate-400 text-white pl-5 pr-5 pt-[7px] pb-[7px] border-2 rounded text-xl '>Login/Register </button>
+                        <button className='hidden  lg:flex bg-slate-700  border  hover:bg-slate-800 text-white pl-5 pr-5 pt-[7px] pb-[7px]  rounded text-xl '>Login/Register </button>
+
                         </Link>
                         <div className=' flex gap-4 items-center '>
                             <BiSearchAlt onClick={() => setSearchToggle(!searchToggle)} className='w-[25px] h-[25px]  cursor-pointer lg:hidden  block' />
@@ -53,15 +54,15 @@ function Header() {
                 <div className='w-full '>
                     <nav className='hidden   lg:flex'>
                         <ul className='w-full flex flex-row justify-between text-[17px]  font-semibold text-slate-400'>
-                            <li className='hover:bg-gradient-to-r from-cyan-500 to-blue-500 pt-2 cursor-pointer pb-2 pl-4 pr-4 border-none rounded text-white '>Raybar</li>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Raybar</li>
                             <Link to='/chat'>
-                            <li className='hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer pt-2 pb-2 pl-4 pr-4 border-none rounded text-white '>Chat </li>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Chat </li>
                             </Link>
-                            <li className='hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer pt-2 pb-2 pl-4 pr-4 border-none rounded text-white '>Job Portal</li>
-                            <li className='hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer pt-2 pb-2 pl-4 pr-4 border-none rounded text-white '>Notification</li>
-                            <li className='hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer pt-2 pb-2 pl-4 pr-4 border-none rounded text-white '>Become an affiliate</li>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Job Portal</li>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Notification</li>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Become an affiliate</li>
                             <Link to='/contact'>
-                            <li className='hover:bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer pt-2 pb-2 pl-4 pr-4 border-none rounded text-white '>Contact</li>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded text-white '>Contact</li>
                             </Link>
                         </ul>
                     </nav>
@@ -78,7 +79,7 @@ function Header() {
                     <div className='bg-slate-100 min-h-[70px] flex items-center justify-center '>
        
                         <Link to='/login'>
-                            <button className=' bg-gradient-to-r from-cyan-500 to-blue-500  text-white pl-3 pr-3 pt-[5px] pb-[5px] border-none rounded text-[14px] font-bold '> Login/Register </button>
+                            <button className='  text-white px-3 border-none rounded text-[14px] font-semibold '> Login/Register </button>
                         </Link>       
                      
                     </div>

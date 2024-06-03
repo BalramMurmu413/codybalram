@@ -20,45 +20,40 @@ export default function Contact() {
 
         <h1 className='md:text-4xl font-extrabold text-1xl text-white  '>Get In Touch</h1>
           </div>
-          <div className=' flex flex-wrap justify-around  w-full mt-28   '>
-            <div className='bg-white rounded-lg flex items-center hover:scale-110 transition-all  flex-col my-4 py-2 h-44 w-44'>
+          <div className=' flex flex-wrap justify-around  w-full my-10   '>
+            <div className='bg-white rounded-lg flex items-center hover:scale-110 transition-all  flex-col my-4 py-2   md:h-36 w-44'>
               <  FaLocationDot className='
                w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
               <h2 className='sm:font-medium md:font-semibold my-3'>Our Main Office</h2>
               <p className='text-center'>SoHo 94 Broadway St New York, Ny 101</p>
             </div>
             
-            <div className='bg-white rounded-lg  flex items-center shadow-gray-600  hover:scale-110 transition-all  flex-col my-4 py-2   h-44 w-44'>
+            <div className='bg-white rounded-lg  flex items-center shadow-gray-600  hover:scale-110 transition-all  flex-col my-4 py-2    h-32   md:h-36 w-44'>
             < FaPhone className='
-            w-[30px] h-[30px]
-              md:w-[50px] md:h-[50px]'/>
+           w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
               <h2 className='sm:font-medium  md:font-semibold my-3'>Phone Number</h2>
               <p>+91 4500-5748-0000 </p>
               <p>1800- 4500-4500</p>
    </div>
-            <div className='bg-white hover:scale-110 transition-all  rounded-lg shadow-lg shadow-grey-500/50  flex items-center flex-col my-4 py-2  h-44 w-44'>
+            <div className='bg-white hover:scale-110 transition-all  rounded-lg shadow-lg shadow-grey-500/50  flex items-center flex-col my-4 py-2   h-32 w-44  md:h-36 '>
             < MdOutlineFax className='
-              w-[30px] h-[30px]
-              md:w-[50px] md:h-[50px]'/>
+              w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
               <h2 className=' sm:font-medium md:font-semibold my-3'>Fax</h2>
               <p>9500 - 9500 - 00 </p>
    </div>
-            <div className='bg-white  rounded-lg   flex items-center hover:scale-110 transition-all  flex-col my-4 py-2
-              h-44 w-44'>
+            <div className='bg-white  rounded-lg   flex items-center hover:scale-110 transition-all  flex-col my-4 py-2 h-32   md:h-36 w-44'>
             <  HiOutlineMail className='
-              w-[30px] h-[30px]
-              md:w-[50px] md:h-[50px]'/>
+              w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
               <h2 className='sm:font-medium  md:font-semibold my-3'>Email</h2>
               <p>SagunBapla@gmail.com </p>
 
    </div>
           </div>
         </div>
-        <div className=' items-center justify-around flex flex-row w-screen h-screen '>
-
-          <div className='item-center justify-around flex flex-col-reverse md:flex-row mt-48'>
+        <div className=' items-center bg-slate-900  justify-around flex flex-row w-screen '>
+          <div className='item-center justify-around flex flex-col-reverse md:flex-row'>
             <div>
-              <form action="" method="post " className='flex flex-col  mt-14 p-4  justify-between '>
+              <form action="" method="post " className='flex flex-col my-16 p-4  justify-between '>
                 <div className='w-full flex flex-row '>
                   <div>
                   <label htmlFor="" className='text-white  font-bold '>Email <br />
@@ -85,13 +80,13 @@ export default function Contact() {
                 </div>
               </form>
             </div>
-            <div className='w-1/2 h-60 m-auto flex flex-col justify-around pl-5'>
+            <div className='w-1/2   m-auto flex flex-col justify-around'>
               <div>
-             <h1 className='md:text-4xl font-bold text-white'>Get in Touch</h1>
+                <h1 className='md:text-4xl text-2xl font-bold text-white'>Get in Touch</h1>
               </div>
 
               <div>
-                <p className='font-semibold italic  text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, accusantium!</p>
+                <p className='font- italic  text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, accusantium!</p>
               </div>
               <div>
                 <p className='text-white font-semibold'>
@@ -99,11 +94,13 @@ export default function Contact() {
                 </p>
               </div>
               <div>
-                <ul className='flex flex-row '>
-                  <li className='mx-5 cursor-pointer '><FaFacebook className='w-[30px] h-[30px] hover:scale-125 transition-all border-zinc-300   '/></li>
-                  <li className='mx-5 cursor-pointer '><FaXTwitter className='w-[30px] h-[30px] hover:scale-125 transition-all border-zinc-300   '/></li>
-                  <li className='mx-5 cursor-pointer '><FaSquareInstagram className='w-[30px] h-[30px] hover:scale-125 transition-all border-zinc-300   '/></li>
-                  <li className='mx-5 cursor-pointer '><IoLogoWhatsapp className='w-[30px] h-[30px] hover:scale-125 transition-all border-zinc-300   '/></li>
+                <ul className='flex flex-row my-10 '>
+                  <Link to=''>
+                   <li className='mx-5 cursor-pointer '><FaFacebook className='w-[30px] h-[30px] text-white hover:scale-125 transition-all border-zinc-300  rounded-full   '/></li>
+                  </Link>
+                  <li className='mx-5 cursor-pointer '><FaXTwitter className='w-[30px] h-[30px] text-white hover:scale-125 transition-all border-zinc-300  rounded-full  '/></li>
+                  <li className='mx-5 cursor-pointer '><FaSquareInstagram className='w-[30px] h-[30px]  text-white  hover:scale-125 transition-all border-zinc-300  rounded-full  '/></li>
+                  <li className='mx-5 cursor-pointer '><IoLogoWhatsapp className='w-[30px] h-[30px]     text-white  hover:scale-125 transition-all border-zinc-300   rounded-full '/></li>
                 </ul>
               </div>
             </div>
