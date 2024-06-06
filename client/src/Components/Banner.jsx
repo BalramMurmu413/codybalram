@@ -2,9 +2,11 @@ import { ReactTyped } from "react-typed";
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+
 function Banner() {
   return (
-    <div className=" w-full  flex flex-col items-center my-10 bg-slate-800  "  >
+    <div className=" w-full   flex flex-col  items-center my-10 bg-slate-800   "   >
       <div>
         <h1 className=" text-2xl md:text-8xl font-bold text-white ">
         Bring Your Ideas to Life

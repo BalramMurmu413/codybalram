@@ -106,7 +106,9 @@ function Header() {
                             
                         <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Contact</li>
                         </Link>
-                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Hire ME</li>
+                        <Link to='hireme'>
+                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Hire Me</li>
+                        </Link>
                         <Link to='/contact'>
                     <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Contact Us</li>
                     </Link>
