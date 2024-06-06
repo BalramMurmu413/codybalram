@@ -2,6 +2,8 @@ import React from 'react'
 import { FaXTwitter } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -30,7 +32,7 @@ function Footer() {
 
 
         <div>
-          <h1 className='font-bold text-2xl'>Balram Murmu  <hr/> </h1>
+          <h1 className='font-bold text-2xl'>Balram Murmu<hr/> </h1>
           <div className='flex flex-col items-start '>
             <h3 className='p-1 rounded border-white m-1 border font-bold text-green-300'>100+ Client Handled </h3>
             <h3 className='p-1 rounded border-white m-1 border font-bold text-green-300'>Across India</h3>
@@ -38,7 +40,7 @@ function Footer() {
             </div>
         </div>
         <div className='mx-5' >
-          <h1  className='font-bold text-2xl '>Company <hr /> </h1>
+          <h1  className='font-bold text-2xl'>Company<hr /> </h1>
           <div className='flex flex-row gap-5'>
             <div>
               <ul className='flex flex-col items-start'>
@@ -54,8 +56,10 @@ function Footer() {
         <h1  className='font-bold text-2xl '>Product <hr /> </h1>
         <div className='flex flex-row gap-5'>
             <div>
-              <ul className='flex flex-col items-start'>
+                <ul className='flex flex-col items-start'>
+                <Link to='/contact'>
                 <li>Contact Us</li>
+                </Link>
                 <li>Job Assistant</li>
                 <li>Term and Condiction</li>
               </ul></div>

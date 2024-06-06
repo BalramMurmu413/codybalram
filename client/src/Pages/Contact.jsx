@@ -45,12 +45,14 @@ export default function Contact() {
             <  HiOutlineMail className='
               w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
               <h2 className='sm:font-medium  md:font-semibold my-3'>Email</h2>
-              <p>SagunBapla@gmail.com </p>
-
+              <p>Codybalram@dev.com </p>
    </div>
           </div>
         </div>
-        <div className='  bg-slate-900  justify-around  flex flex-row w-screen  '>
+
+
+
+        <div className='  bg-slate-900  justify-around  flex flex-row w-full  '>
           <div className='item-center justify-around flex flex-col-reverse md:flex-row '>
             <div>
               <form action="" method="post " className='flex flex-col my-1 p-4   '>
@@ -76,7 +78,7 @@ export default function Contact() {
                   </label>
                 </div>
                 <div>
-                  <button className=   ' hover:bg-slate-900 bg-slate-800 text-white py-2 px-6 font-semibold rounded-sm border '> Send </button>
+                  <button className='hover:bg-slate-900 bg-slate-800 text-white py-2 px-6 font-semibold rounded-sm border '> Send </button>
                 </div>
               </form>
             </div>
@@ -86,7 +88,7 @@ export default function Contact() {
               </div>
 
               <div>
-                <p className='font- italic  text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, accusantium!</p>
+                <p className='font-2px italic  text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, accusantium!</p>
               </div>
               <div>
                 <p className='text-white font-semibold'>

@@ -8,7 +8,6 @@ import { RiMenu3Line } from "react-icons/ri";
 import { useState } from 'react';
 // images
 
-import MaintanancePage from '../Pages/MaintanancePage.jsx';
 function Header() {
     const [toggle, setToggle] = useState(false)
     const [searchToggle, setSearchToggle] = useState(false)
@@ -23,7 +22,7 @@ function Header() {
                     <div className='flex flex-row items-center '>
                        
                         <Link to='/'>
-                        <h1 className=' font-bold md:text-[32px] text-pink-400  font-sans text-[22px]'><span>&lt;</span> CodyBalram <span> &#8725; &gt;</span></h1>
+                        <h1 className=' font-bold md:text-[32px] text-pink-500  font-sans text-[22px]'><span>&lt;</span> CodyBalram <span> &#8725; &gt;</span></h1>
                         </Link>
                     </div>
                     <div>
@@ -68,6 +67,9 @@ function Header() {
 
                             <Link to='/maintanancePage'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Become an affiliate</li>
+                            </Link>
+                            <Link to='/hireme'>
+                            <li className='bg-pink-500 py-2 cursor-pointer border-white border-2 px-4 border-none rounded font-semibold text-white '>Hire Me</li>
                             </Link>
                             <Link to='/contact'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Contact</li>
