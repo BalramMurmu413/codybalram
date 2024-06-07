@@ -5,6 +5,8 @@ import Header from '../Components/Header.jsx';
 import Footer from '../Components/Footer.jsx';
 
 const HireMe = () => {
+  // useState
+  const [toggleA , setToggleA] = useState(false)
   // State to manage selected options
   const [selectedRole, setSelectedRole] = useState('');
   const [selectedExperience, setSelectedExperience] = useState('');
@@ -27,13 +29,45 @@ const HireMe = () => {
 
   return (
     <>
-    <Header/>
-      <div className='min-h-screen w-full flex justify-center md:justify-around items-center bg-slate-900'>
+      <Header />
+      <div className='bg-slate-900 border rounded-lg min-h-screen justify-around ' >
+        <div  className='flex justify-around items-center flex-col min-h-screen '>
+          <div className='my-10'>
+            <h1 className='text-white text-2xl md:text-4xl font-bold'>Hire Me as Web Developer <span className='text-pink-500'>	&lt;&#8725;&gt; </span> </h1>
+          <div className='my-10'>
+            <p className='text-white text-sm font-semibold'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti voluptatem quam voluptatibus, temporibus eos magnam!</p>
+              
+            </div>
+            { toggleA ?
+
+              <h1 onClick={() => setToggleA(!toggleA)} className='text-white text-3xl py-3 px-4 bg-slate-500   cursor-pointer select-none'>Why Choose Me? &darr;</h1>
+      
+              
+              
+:
+<h1 onClick={()=>setToggleA(!toggleA)} className='text-white text-3xl py-3 px-4 bg-slate-500   cursor-pointer select-none'>Why Choose a Me? &darr;</h1>
+            }
+              <div>
+              <h1 className='text-white text-3xl py-3 px-4 bg-slate-500   cursor-pointer select-none'>What I Bring to Your Team: &darr;</h1>
+              <ul className='text-white flex flex-col list-decimal items-start my-10 mx-10'>
+                <li className='text-start'>Passion: I am deeply passionate about web development and dedicated to staying updated on the latest trends and technologies to deliver forward-thinking solutions.</li>
+                <li className='text-start'>Problem-Solving Skills: I thrive in challenging environments and excel at finding innovative solutions to overcome obstacles and achieve project goals.</li>
+                <li className='text-start'>Adaptability: In the fast-paced world of web development, adaptability is crucial. I am adept at quickly learning new tools and technologies to meet project requirements.</li>
+                <li className='text-start'>Team Player: Collaboration is at the heart of successful projects. I value teamwork and actively contribute to a positive and supportive work environment.</li>
+              </ul>
+            </div>
+            </div> 
+          
+        </div>
+
+        </div>
+       
+      <div className='min-h-screen w-full flex  justify-center md:justify-around items-center bg-slate-900'>
         <div>
           <img src={sample} alt="" width={640} className=' hidden md:block rounded-lg shadow-lg' />
         </div>
         <div className="">
-      <div className="bg-slate-800 p-8 rounded-lg shadow-lg">
+      <div className="bg-slate-800  p-8 rounded-lg shadow-lg">
         <h1 className="text-2xl md:text-4xl text-pink-500 font-bold mb-6">Hire Me</h1>
 
         <div className="mb-4">
