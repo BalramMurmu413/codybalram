@@ -7,6 +7,7 @@ import Footer from '../Components/Footer.jsx';
 const HireMe = () => {
   // useState
   const [toggleA , setToggleA] = useState(false)
+  const [toggleB , setToggleB] = useState(false)
   // State to manage selected options
   const [selectedRole, setSelectedRole] = useState('');
   const [selectedExperience, setSelectedExperience] = useState('');
@@ -37,26 +38,39 @@ const HireMe = () => {
           <div className='my-10'>
             <p className='text-white text-sm font-semibold'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti voluptatem quam voluptatibus, temporibus eos magnam!</p>
               
-            </div>
-            { toggleA ?
-
-              <h1 onClick={() => setToggleA(!toggleA)} className='text-white text-3xl py-3 px-4 bg-slate-500   cursor-pointer select-none'>Why Choose Me? &darr;</h1>
-      
-              
-              
-:
-<h1 onClick={()=>setToggleA(!toggleA)} className='text-white text-3xl py-3 px-4 bg-slate-500   cursor-pointer select-none'>Why Choose a Me? &darr;</h1>
-            }
-              <div>
-              <h1 className='text-white text-3xl py-3 px-4 bg-slate-500   cursor-pointer select-none'>What I Bring to Your Team: &darr;</h1>
-              <ul className='text-white flex flex-col list-decimal items-start my-10 mx-10'>
+            </div>  
+            :
+            <div>
+              <h1 onClick={()=> setToggleA(!toggleA)} className='text-white text-3xl py-3 px-4    cursor-pointer select-none bg-slate-600 '>Why You Hire me &darr;</h1>
+              <ul className={`text-white flex flex-col   list-decimal items-start my-10 mx-10 
+                
+                ${toggleA
+                  ? 'left-0 text-orange-400 hidden'
+                  :'-left-100% text-red-400 '
+                }  `}>
                 <li className='text-start'>Passion: I am deeply passionate about web development and dedicated to staying updated on the latest trends and technologies to deliver forward-thinking solutions.</li>
                 <li className='text-start'>Problem-Solving Skills: I thrive in challenging environments and excel at finding innovative solutions to overcome obstacles and achieve project goals.</li>
                 <li className='text-start'>Adaptability: In the fast-paced world of web development, adaptability is crucial. I am adept at quickly learning new tools and technologies to meet project requirements.</li>
                 <li className='text-start'>Team Player: Collaboration is at the heart of successful projects. I value teamwork and actively contribute to a positive and supportive work environment.</li>
               </ul>
             </div>
-            </div> 
+          </div> 
+          <div>
+          <div>
+              <h1 className='text-white  text-3xl' >What I Bring to Your Team  <span onClick={()=> setToggleB(!toggleB)} className='cursor-pointer select-none rounded-full border-[1px]'> &darr;</span></h1>
+              <ul className={`text-white flex flex-col   list-decimal items-start my-10 mx-10 
+                
+                ${toggleB
+                  ? 'left-0 text-orange-400 hidden'
+                  :'-left-100% text-red-400 '
+                }  `}>
+                <li className='text-start'>Passion: I am deeply passionate about web development and dedicated to staying updated on the latest trends and technologies to deliver forward-thinking solutions.</li>
+                <li className='text-start'>Problem-Solving Skills: I thrive in challenging environments and excel at finding innovative solutions to overcome obstacles and achieve project goals.</li>
+                <li className='text-start'>Adaptability: In the fast-paced world of web development, adaptability is crucial. I am adept at quickly learning new tools and technologies to meet project requirements.</li>
+                <li className='text-start'>Team Player: Collaboration is at the heart of successful projects. I value teamwork and actively contribute to a positive and supportive work environment.</li>
+              </ul>
+            </div>
+          </div>
           
         </div>
 
