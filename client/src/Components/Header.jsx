@@ -57,7 +57,7 @@ function Header() {
                             <Link to='/maintanancePage'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Services</li>
                             </Link>
-                            <Link to='/maintanancePage'>
+                            <Link to='/client'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none font-semibold rounded text-white '>Our Client</li>
                             </Link>
 

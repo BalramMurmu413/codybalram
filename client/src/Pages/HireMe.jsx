@@ -57,7 +57,7 @@ const HireMe = () => {
           </div> 
           <div>
           <div>
-              <h1 className='text-white  text-3xl' >What I Bring to Your Team  <span onClick={()=> setToggleB(!toggleB)} className='cursor-pointer select-none rounded-full border-[1px]'> &darr;</span></h1>
+              <h1 className='text-white  text-3xl' >What I Bring to Your Team  <span onClick={()=> setToggleB(!toggleB)} className='cursor-pointer select-none rounded-full border-[1px] '> &darr;</span></h1>
               <ul className={`text-white flex flex-col   list-decimal items-start my-10 mx-10 
                 
                 ${toggleB
