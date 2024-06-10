@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer >
-      <div className=' bg-slate-900 my-2 py-16 border-2  rounded-xl text-slate-100 md:flex justify-around  w-full h-58  grid grid-cols-2  '>
+    <footer className=' bg-slate-900  rounded-xl border-2 my-2   text-slate-100  flex flex-col   ' >
+      <div className=' bg-slate-900 my-2 py-8   text-slate-100 md:flex justify-around  w-full  grid grid-cols-2  '>
 
         <div className='mx-4'>
           <h1 className='font-bold text-2xl items-start'> Founder <hr/> </h1>
@@ -65,7 +65,13 @@ function Footer() {
               </ul></div>
           </div>
         </div>
+        
         </div>
+        <div>
+<h1>This website is designed by <br /> Balram Murmu</h1>
+<h3>All &#169; Copyright reserved 2024 	</h3>
+        
+      </div>
     </footer>
   )
 }
