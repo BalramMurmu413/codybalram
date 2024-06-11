@@ -61,8 +61,8 @@ function Header() {
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none font-semibold rounded text-white '>Our Client</li>
                             </Link>
 
-                            <Link to='/maintanancePage'>
-                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Notification</li>
+                            <Link to='/ourwork'>
+                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Our Work</li>
                             </Link>
 
                             <Link to='/maintanancePage'>

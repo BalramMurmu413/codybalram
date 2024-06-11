@@ -11,6 +11,7 @@ import Logout from './Components/HomePage.jsx'
 import MaintanancePage from './Pages/MaintanancePage.jsx';
 import HireMe from './Pages/HireMe.jsx';
 import ClientPage from './Pages/ClientPage.jsx';
+import OurWork from './Pages/OurWork.jsx';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path="/maintanancePage" element={<MaintanancePage />} />
             <Route path="/logout" element={<Logout />} />
             <Route path="/hireme" element={<HireMe />} />
+            <Route path="/ourwork" element={<OurWork />} />
 
           </Routes>
     </>
