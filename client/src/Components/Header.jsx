@@ -100,13 +100,13 @@ function Header() {
                         <Link to='/maintanancePage'>
                         <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Services </li>
                         </Link>
-                        <Link to='/maintanancePage'>
+                        <Link to='/ourwork'>
 
-                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Products</li>
+                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Our Work</li>
                         </Link>
-                        <Link to='/maintanancePage'>
+                        <Link to='/client'>
                             
-                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Contact</li>
+                        <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Our Client</li>
                         </Link>
                         <Link to='hireme'>
                         <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Hire Me</li>

@@ -19,21 +19,21 @@ export default function OurWork() {
           <section className='w-full min-h-svh  text-white flex-col '>
            
         {/* my work card */}
-            <div className='w-full my-2 flex flex-row bg-slate-900 min-h-'>
-                  <div className='mr-5'>
-                      <img src={computer} alt="" width={400} />
+            <div className='w-full my-2  md:flex-row flex flex-col bg-slate-900  border-2'>
+                  <div className='md:mr-5'>
+                      <img src={computer} alt="" className=' md:w-96 w-full'  />
                   </div>
-                  <div className='w-full my-2 mx-2'>
+                  <div className='w-full my-2 mx-2  '>
                       <div className='w-full mr-16 flex justify-between'>
-                          <h1 className='text-pink-300 font-bold'>Beats.com</h1>
+                          <h1 className='text-pink-300 text-xl md:text-2xl font-bold'>Beats.com</h1>
                           <Link to='https://walkmanproject1.pages.dev/ ' target='_blank'>
-                          <button className='py-1 px-4 rounded-md bg-pink-600 text-white font-semibold '>Visit</button>
+                          <button className='py-1 mr-8 px-4 rounded-md bg-pink-600 text-white font-semibold '>Visit</button>
                           </Link>
                       </div>
-                      <div className='flex flex-col w-full items-start'>
+                      <div className='flex flex-col  w-full justify-start items-start'>
                           <h1> This was my first Portfolio website </h1>
-              <p className=' place-content-start'>
-                <span className='font-bold'>Used frameworks : </span>  
+              <p className=' place-content-start text-start  '>
+                <span className='font-bold  '>Used frameworks : </span>  
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores illum laboriosam quos at cumque ea.</p>
                       </div>
           </div>
@@ -42,20 +42,20 @@ export default function OurWork() {
 
         
           {/* my work card */}
-          <div className='w-full my-2 flex flex-row bg-slate-900 min-h-'>
-                  <div className='mr-5'>
-                      <img src={computer} alt="" width={400} />
+          <div className='w-full my-2  md:flex-row flex flex-col bg-slate-900  border-2'>
+          <div className='md:mr-5'> 
+                      <img src={computer} alt="" className=' md:w-96 w-full'  />
                   </div>
                   <div className='w-full my-2 mx-2'>
                       <div className='w-full mr-16 flex justify-between'>
-                          <h1 className='text-pink-300 font-bold'>codingtag.com</h1>
-                          <Link to='https://codingtag.pages.dev/ ' target='_blank'>
-                          <button className='py-1 px-4 rounded-md bg-pink-600 text-white font-semibold '>Visit</button>
+                      <h1 className='text-pink-300 text-xl md:text-2xl font-bold'>codingtag.com</h1>       <Link to=''>
+              <button className='py-1 mr-8 px-4 rounded-md bg-pink-600 text-white font-semibold '>Visit</button>
+                        
                           </Link>
                       </div>
-                      <div className='flex flex-col w-full items-start'>
-                          <h1> This is an E-commerce website, listed the items of Beats electronic product to purchase online  </h1>
-              <p className=' place-content-start'>
+                      <div className='flex flex-col  w-full justify-start items-start'>
+                          <h1> This is an E-commerce website  </h1>
+              <p className=' place-content-start text-start  '>
                 <span className='font-bold'>Used frameworks : </span>  
                 This website is developed by HTML, CSS, and Javascript and have very poor functionality becouse this was my first website i have made....</p>
                       </div>
@@ -68,20 +68,20 @@ export default function OurWork() {
 
 
           {/* my work card */}
-          <div className='w-fullmy-2  flex flex-row bg-slate-900 min-h-'>
-                  <div className='mr-5'>
-                      <img src={computer} alt="" width={400} />
+          <div className='w-full my-2  md:flex-row flex flex-col bg-slate-900  border-2'>
+          <div className='md:mr-5'>
+                      <img src={computer} alt="" className=' md:w-96 w-full' />
                   </div>
                   <div className='w-full my-2 mx-2'>
                       <div className='w-full mr-16 flex justify-between'>
-                          <h1 className='text-pink-300 font-bold'>Medifine.com</h1>
-                          <Link to='https://html-css-poject-6-multipage-html.pages.dev/ ' target='_black'>
-                          <button className='py-1 px-4 rounded-md bg-pink-600 text-white font-semibold '>Visit</button>
+                      <h1 className='text-pink-300 text-xl md:text-2xl font-bold'>medifine.com</h1>
+                      <Link to='https://html-css-poject-6-multipage-html.pages.dev/ ' target='_black'>
+                          <button className='py-1 mr-8 px-4 rounded-md bg-pink-600 text-white font-semibold '>Visit</button>
                           </Link>
                       </div>
                       <div className='flex flex-col w-full items-start'>
-                          <h1> This is an E-commerce website, listed the items of Beats electronic product to purchase online  </h1>
-              <p className=' place-content-start'>
+                          <h1> This is an E-commerce website  </h1>
+              <p className=' place-content-start text-start  '>
                 <span className='font-bold'>Used frameworks : </span>  
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dignissimos quidem quae, velit praesentium ab quia voluptatibus minus facere culpa.</p>
                       </div>

@@ -16,9 +16,9 @@ export default function SimpleFooter() {
                     <img src={sample} alt="" width={100 }  className=' rounded-s-full'/>
                   </div>
                  
-                  <div className='flex flex-col items-start'>
+                  <div className='flex flex-col items-start '>
                       <p className='text-pink-400 font-semibold'>Designed By Balram Murmu</p>
-                      <p className=' text-sm'> All Copyright Reserved 2024 </p>
+                      <p className=' text-sm text-pink-400'> All Copyright Reserved 2024 </p>
                   </div>
                   <div>
                       <ul className='flex flex-row gap-10 text-white mr-7'>
