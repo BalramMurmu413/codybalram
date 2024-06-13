@@ -12,6 +12,7 @@ import MaintanancePage from './Pages/MaintanancePage.jsx';
 import HireMe from './Pages/HireMe.jsx';
 import ClientPage from './Pages/ClientPage.jsx';
 import OurWork from './Pages/OurWork.jsx';
+import Course from './Pages/Course.jsx';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/course" element={<Course/>} />
             <Route path="/chat" element={<Chat />} />
             <Route path="/client" element={<ClientPage/>} />
             <Route path="/contact" element={<Contact />} />

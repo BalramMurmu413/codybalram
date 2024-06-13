@@ -17,7 +17,9 @@ function Header() {
             {/* header container closing tag */}
 
             {/* header uppper part */}
-            <div className='flex flex-col w-11/12 min-h-42 bg-slate-800 justify-between  m-auto'>
+            <section className='w-full bg-slate-900  mx-0 '>
+
+            <div className='flex flex-col w-11/12  justify-between  m-auto'>
                 <div className='flex flex-row justify-between items-center '>
                     <div className='flex flex-row items-center '>
                        
@@ -53,7 +55,9 @@ function Header() {
                 <div className='w-full my-5 '>
                     <nav className='hidden   lg:flex'>
                         <ul className='w-full flex flex-row justify-between font-semibold text-slate-400'>
+                            <Link to='/course'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Courses</li>
+                            </Link>
                             <Link to='/maintanancePage'>
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Services</li>
                             </Link>
@@ -80,12 +84,12 @@ function Header() {
             </div>
             {/* header container closing tag */}
             {/* responsive menus  */}
-            <div className={` w-full h-20  justify-center  flex items-center  ${searchToggle ? 'left-[0]' : '-left-[100%]'}`} >
+            <div className={` w-full  justify-center  flex items-center  ${searchToggle ? 'left-[0]' : '-left-[100%]'}`} >
 
                 <input className='fixed hidden  md:hidden min-w-[300px] min-h-10 border-slate-400 rounded outline-none border pl-12 pr-3' type="search" placeholder='Search by product title' />
             </div>
             <div className=' md:hidden block'>
-                <nav className={`   fixed -mt-20 bg-slate-900 w-full h-screen block transition-all duration-25  ${toggle ? 'left-0' : 'left-[-100%]'}`}>
+                <nav className={`   fixed  bg-slate-900 w-full h-screen block transition-all duration-25  ${toggle ? 'left-0' : 'left-[-100%]'}`}>
                     <div className='bg-slate-700 min-h-[70px] flex items-center justify-center '>
        
                         <Link to='/login'>
@@ -94,7 +98,7 @@ function Header() {
                      
                     </div>
                     <ul className=' flex flex-col items-start text-white text-[15px]  ml-2 mt-8 font-semibold '>
-                        <Link to='/maintanancePage'>
+                        <Link to='/course'>
                         <li className='hover:bg-slate-700 pt-2 m-1 cursor-pointer pb-2 pl-4 pr-4 border-none rounded '>Courses</li>
                         </Link>
                         <Link to='/maintanancePage'>
@@ -117,6 +121,7 @@ function Header() {
                     </ul>
                 </nav>
             </div>
+            </section>
         </>
     )
 }
