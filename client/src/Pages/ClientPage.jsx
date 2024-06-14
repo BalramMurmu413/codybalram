@@ -12,13 +12,13 @@ export default function ClientPage() {
   return (
     <>
       <Header/>
-          <section className='w-full bg-slate-900 items-center flex my-2  min-h-36 justify-center'>
+          <section className='w-full bg-slate-900 items-center md:mt-20 flex my-2  min-h-36 justify-center'>
               <div className=''>
                   <h1 className='text-white text-xl font-bold  md:text-4xl'>Our Client from all over the world</h1>
                   <p className='text-white text-sm font-semibold md:text-base'>Here are our some client details and theire revies </p>
               </div>
             </section>
-    <section className=' w-full my-32 border-2 py-20 bg-slate-900 rounded-md'>
+    <section className=' w-full my-5 md:my-32 border-2 py-20 bg-slate-900 rounded-md'>
     <div >
                   <div className=' w-10/12  m-auto flex flex-row flex-wrap items-center justify-around'>           
 

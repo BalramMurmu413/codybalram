@@ -15,7 +15,7 @@ export default function Contact() {
     <>
     <Header />
       <section>
-        <div className='  w-full '>
+        <div className='  w-full mt-20'>
           <div className='w-full  flex items-center justify-center'>
 
         <h1 className='md:text-4xl font-extrabold text-1xl text-white cursor-default select-none    '>Get In Touch</h1>

@@ -10,7 +10,7 @@ export default function OurWork() {
       <Header />
       
 
-      <section className='w-full flex items-center mb-10 min-h-36 justify-center bg-slate-900'>
+      <section className='w-full flex items-center mt-16 mb-10 min-h-36 justify-center bg-slate-900'>
         <div>
           <h1 className='text-white text-xl font-bold  md:text-4xl'>Lorem ipsum dolor sit amet.</h1>
           <p className='text-white text-sm font-semibold md:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, autem?</p>

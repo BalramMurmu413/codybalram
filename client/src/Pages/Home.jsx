@@ -6,6 +6,7 @@ import Header from '../Components/Header.jsx'
 import ShowCase from '../Components/ShowCase.jsx'
 import ShowCaseTwo from '../Components/ShowCaseTwo.jsx'
 import Whatsapp from '../Components/Whatsapp.jsx'
+import Expertise from '../Components/Expertise.jsx'
 
 
 
@@ -16,6 +17,7 @@ export default function Home(){
         <Whatsapp />
         <Banner />
         <ShowCase />
+        <Expertise/>
         <Card />
         <ShowCaseTwo />
         <Footer/>
