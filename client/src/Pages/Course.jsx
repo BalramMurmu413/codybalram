@@ -4,6 +4,8 @@ import SimpleFooter from '../Components/SimpleFooter.jsx'
 import { ReactTyped } from 'react-typed'
 import computer from '/Images/computer.jpg'
 
+import CourseOne from '../Components/CourseOne.jsx'
+
 
 export default function Course() {
   return (
@@ -14,20 +16,23 @@ export default function Course() {
         
         <div className='w-full px-5 min-h-80  flex flex-col-reverse md:flex-row  justify-between items-center '>
 
-          <div>
+          <div className=''>
             <h1 className='text-pink-500 text-xl font-semibold md:text-4xl text-start'>Lorem, ipsum. <br />
+<p className=' inline text-3xl  '>&lt; </p>      
             <ReactTyped  className="sm:text-xl md:text-4xl  font-bold text-orange-400 "
-      
-      strings={[
-        "  Web Designing",
+
+                strings={[
+        "  Web Designing" ,
         " Web Development",
         " Deployment",
-        "Handling",
+          "Handling"
+        
         ]}
         typeSpeed={80}
         backSpeed={40}
         loop={true}
-/>
+              />
+              <p className=' inline-flex   text-3xl   font-bold '> &gt;</p>
         </h1>
             <h3 className='text-pink-500 text-lg md:text-2xl text-start'>Lorem ipsum dolor sit amet.</h3>
             <p className='text-start text-white font-normal'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae explicabo totam magnam in voluptate inventore?</p>
@@ -45,7 +50,9 @@ export default function Course() {
 
 
 {/* second section  */}
-      <section className='w-full bg-orange-900 min-h-96 my-10'>
+      <section className='w-full min-h-96 my-10'>
+      <CourseOne />
+
         
 </section>
       
