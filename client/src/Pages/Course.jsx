@@ -6,7 +6,7 @@ import computer from '/Images/computer.jpg'
 
 import CourseOne from '../Components/CourseOne.jsx'
 import SoftwareDevelopment from '../Components/SoftwareCourse.jsx'
-
+import DataScientistCourse from '../Components/DataScientist.jsx'
 
 export default function Course() {
   return (
@@ -59,11 +59,17 @@ export default function Course() {
       
 
       {/* third sectionn */}
-      <section className='w-full bg-orange-500 min-h-96 my-10'>
+      <section className='w-full  min-h-96 my-10'>
       
 <SoftwareDevelopment/>
       </section>
 
+
+{/* fourth section  */}
+      <section className='w-full bg-orange-500 min-h-96 my-10'>
+      <DataScientistCourse/>
+
+      </section>
 
       <SimpleFooter/>
     </>

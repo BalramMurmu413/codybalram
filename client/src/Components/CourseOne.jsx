@@ -25,7 +25,7 @@ export default function CourseOne(){
         {/* card list */}
         <section className="flex flex-wrap">
 
-      <section className=" w-64 bg-slate-700 text-white m-auto flex my-5 flex-row rounded-lg text-start border-2 py-2 px-2">
+      <section className=" w-64 bg-slate-700 text-white hover:scale-105 duration-100 m-auto flex my-5 flex-row rounded-lg text-start border-2 py-2 px-2">
           <div>
             <div>
               <img src={computer} alt="" />
@@ -56,7 +56,7 @@ export default function CourseOne(){
         {/* multi card list */}
 
 
-        <section className=" w-64 bg-slate-700 text-white m-auto flex my-5  md:flex-row rounded-lg text-start border-2 py-2 px-2">
+        <section className=" w-64 bg-slate-700 text-white hover:scale-105 duration-100 m-auto flex my-5  md:flex-row rounded-lg text-start border-2 py-2 px-2">
           <div>
             <div>
               <img src={computer} alt="" />
@@ -88,7 +88,7 @@ export default function CourseOne(){
 
 
 
-        <section className=" w-64 bg-slate-700 text-white m-auto flex my-5  rounded-lg text-start border-2 py-2 px-2">
+        <section className=" w-64 bg-slate-700 hover:scale-105 duration-100 text-white m-auto flex my-5  rounded-lg text-start border-2 py-2 px-2">
           <div>
             <div>
               <img src={computer} alt="" />
@@ -119,7 +119,7 @@ export default function CourseOne(){
 
 
 
-        <section className=" w-64 bg-slate-700 text-white m-auto flex my-5  rounded-lg text-start border-2 py-2 px-2">
+        <section className=" w-64 bg-slate-700 text-white hover:scale-105 duration-100 m-auto flex my-5  rounded-lg text-start border-2 py-2 px-2">
           <div>
             <div>
               <img src={computer} alt="" />
