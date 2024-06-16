@@ -8,11 +8,11 @@ import Contact from './Pages/Contact.jsx'
 import Chat from './Pages/Chat.jsx'
 import CreateProfile from './Pages/CreateProfile.jsx'
 import Logout from './Components/HomePage.jsx'
-import MaintanancePage from './Pages/MaintanancePage.jsx';
 import HireMe from './Pages/HireMe.jsx';
 import ClientPage from './Pages/ClientPage.jsx';
 import OurWork from './Pages/OurWork.jsx';
 import Course from './Pages/Course.jsx';
+import Services from './Pages/ServicePage.jsx'
 
 
 function App() {
@@ -26,10 +26,10 @@ function App() {
             <Route path="/client" element={<ClientPage/>} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/createProfile" element={<CreateProfile />} />
-            <Route path="/maintanancePage" element={<MaintanancePage />} />
             <Route path="/logout" element={<Logout />} />
             <Route path="/hireme" element={<HireMe />} />
             <Route path="/ourwork" element={<OurWork />} />
+            <Route path="/service" element={<Services/>} />
 
           </Routes>
     </>

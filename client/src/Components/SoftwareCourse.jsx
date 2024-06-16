@@ -48,7 +48,7 @@ export default function SoftwareDevelopment(){
             </div>
             <div className="w-full flex flex-row py-4 px-4 justify-between items-center">
               <button className="border-[1px] py-[4px] px-3 rounded  hover:bg-slate-800">Explore</button>
-              <button className="border-[1px] py-[4px] px-3  rounded hover:bg-slate-800">Buy now</button>
+              <button className="border-[1px] py-[4px] px-3  rounded hover:bg-slate-800">Enroll now</button>
             </div>
           </div>
         </section>
@@ -79,7 +79,7 @@ export default function SoftwareDevelopment(){
             </div>
             <div className="w-full flex flex-row py-4 px-4 justify-between items-center">
               <button className="border-[1px] py-[4px] px-3 rounded  hover:bg-slate-800">Explore</button>
-              <button className="border-[1px] py-[4px] px-3  rounded hover:bg-slate-800">Buy now</button>
+              <button className="border-[1px] py-[4px] px-3  rounded hover:bg-slate-800">Enroll now</button>
             </div>
           </div>
         </section>
@@ -111,7 +111,7 @@ export default function SoftwareDevelopment(){
             </div>
             <div className="w-full flex flex-row py-4 px-4 justify-between items-center">
               <button className="border-[1px] py-[4px] px-3 rounded  hover:bg-slate-800">Explore</button>
-              <button className="border-[1px] py-[4px] px-3  rounded hover:bg-slate-800">Buy now</button>
+              <button className="border-[1px] py-[4px] px-3  rounded hover:bg-slate-800">Enroll now</button>
             </div>
           </div>
         </section>
@@ -142,7 +142,7 @@ export default function SoftwareDevelopment(){
             </div>
             <div className="w-full flex flex-row py-4 px-4 justify-between items-center">
               <button className="border-[1px] py-[4px] px-3 rounded  hover:bg-slate-800">Explore</button>
-              <button className="border-[1px] py-[4px] px-3  rounded hover:bg-slate-800">Buy now</button>
+              <button className="border-[1px] py-[4px] px-3  rounded hover:bg-slate-800">Enroll now</button>
             </div>
           </div>
         </section>
