@@ -5,6 +5,7 @@ import { ReactTyped } from 'react-typed'
 import computer from '/Images/computer.jpg'
 
 import CourseOne from '../Components/CourseOne.jsx'
+import SoftwareDevelopment from '../Components/SoftwareCourse.jsx'
 
 
 export default function Course() {
@@ -51,7 +52,7 @@ export default function Course() {
 
 {/* second section  */}
       <section className='w-full min-h-96 my-10'>
-      <CourseOne />
+      <CourseOne/>
 
         
 </section>
@@ -60,7 +61,7 @@ export default function Course() {
       {/* third sectionn */}
       <section className='w-full bg-orange-500 min-h-96 my-10'>
       
-
+<SoftwareDevelopment/>
       </section>
 
 

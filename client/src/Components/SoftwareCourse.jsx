@@ -2,7 +2,7 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import computer from "/Images/computer.jpg";
 
-export default function CourseOne(){
+export default function SoftwareDevelopment(){
   return (
     <>
       <section className="bg-slate-900  items-start my-5 border-2 py-2 px-2" >
@@ -14,7 +14,7 @@ export default function CourseOne(){
           </div>
           <div className="w-full flex  justify-between items-start">
             <h2 className=" text-base md:text-xl text-white font-bold">
-              Web Development
+              App Development
             </h2>
             <button className="md:py-1 px-2  bg-pink-500 flex text-white rounded-lg font-semibold hover:bg-pink-400 text-sm md:text-base items-center justify-center">
               View All <FaArrowRight className="inline h-8 " width={10} /> 
