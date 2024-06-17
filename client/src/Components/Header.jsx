@@ -40,13 +40,12 @@ function Header() {
                         <button className='hidden  lg:flex bg-slate-700  border  hover:bg-slate-800 text-white pl-5 pr-5 pt-[7px] pb-[7px]  rounded text-xl '>Login/Register </button>
 
                         </Link>
-                        <div className=' flex gap-4 items-center '>
-                            <BiSearchAlt onClick={() => setSearchToggle(!searchToggle)} className='w-[25px] h-[25px]  cursor-pointer text-pink-500 lg:hidden  block' />
+                        <div className=' flex gap-4 items-center  '>
                             {
                                 toggle ?
-                                    <AiOutlineClose onClick={() => setToggle(!toggle)} className='h-6 w-6 cursor-pointer lg:hidden text-pink-500 block' />
+                                    <AiOutlineClose onClick={() => setToggle(!toggle)} className='h-8 w-8  cursor-pointer lg:hidden text-pink-500 block' />
                                     :
-                                    <RiMenu3Line onClick={() => setToggle(!toggle)} className='h-6 w-6 cursor-pointer text-pink-500 lg:hidden  block ' />
+                                    <RiMenu3Line onClick={() => setToggle(!toggle)} className='h-8 w-8  cursor-pointer text-pink-500 lg:hidden  block ' />
                             }
                         </div>
                     </div>
@@ -84,11 +83,7 @@ function Header() {
             </div>
             {/* header container closing tag */}
             {/* responsive menus  */}
-            <div className={` w-full  justify-center  flex items-center  ${searchToggle ? 'left-[0]' : '-left-[100%]'}`} >
-
-                <input className='fixed hidden  md:hidden min-w-[300px] min-h-10 border-slate-400 rounded outline-none border pl-12 pr-3' type="search" placeholder='Search by product title' />
-            </div>
-            <div className=' md:hidden block'>
+            <div className=' md:hidden  block'>
                 <nav className={`   fixed  bg-slate-900 w-full h-screen block transition-all duration-25  ${toggle ? 'left-0' : 'left-[-100%]'}`}>
                     <div className='bg-slate-700 min-h-[70px] flex items-center justify-center '>
        
