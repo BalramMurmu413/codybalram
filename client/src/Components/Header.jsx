@@ -68,9 +68,6 @@ function Header() {
                             <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Our Work</li>
                             </Link>
 
-                            <Link to='/maintanancePage'>
-                            <li className='hover:bg-slate-600 py-2 cursor-pointer  px-4 border-none rounded font-semibold text-white '>Become an affiliate</li>
-                            </Link>
                             <Link to='/hireme'>
                             <li className='bg-pink-500 py-2 cursor-pointer border-white border-2 px-4 border-none rounded font-semibold text-white '>Hire Me</li>
                             </Link>
@@ -83,7 +80,7 @@ function Header() {
             </div>
             {/* header container closing tag */}
             {/* responsive menus  */}
-            <div className=' md:hidden  block'>
+            <div className=' lg:hidden  block'>
                 <nav className={`   fixed  bg-slate-900 w-full h-screen block transition-all duration-25  ${toggle ? 'left-0' : 'left-[-100%]'}`}>
                     <div className='bg-slate-700 min-h-[70px] flex items-center justify-center '>
        

@@ -57,7 +57,7 @@ const HireMe = () => {
           </div> 
           <div>
           <div>
-              <h1 className='text-white  text-3xl' >What I Bring to Your Team  <span onClick={()=> setToggleB(!toggleB)} className='cursor-pointer select-none rounded-full border-[1px] '> &darr;</span></h1>
+              <h1 className='text-white text-3xl py-3 px-4    cursor-pointer select-none bg-slate-600'onClick={()=> setToggleB(!toggleB)}>What I Bring to Your Team </h1>
               <ul className={`text-white flex flex-col   list-decimal items-start my-10 mx-10 
                 
                 ${toggleB
@@ -97,6 +97,7 @@ const HireMe = () => {
             <option value="frontend">Frontend Developer</option>
             <option value="backend">Backend Developer</option>
             <option value="fullstack">Fullstack Developer</option>
+                 
           </select>
         </div>
 
@@ -113,7 +114,8 @@ const HireMe = () => {
             <option value="">-- Select Experience --</option>
             <option value="entry">Entry Level</option>
             <option value="intermediate">Intermediate Level</option>
-            <option value="senior">Senior Level</option>
+                <option value="senior">Senior Level</option>
+                
           </select>
         </div>
 
@@ -131,7 +133,12 @@ const HireMe = () => {
             <option value="remote">Remote</option>
             <option value="onsite">On-site</option>
             <option value="hybrid">Hybrid</option>
-          </select>
+              </select>
+              <input type="textarea" name="text-area" id="hire-me-custome-message " placeholder='Your Custom Message...' maxLength={50}  className='my-5
+               w-full bg-transparent text-white  outline-none border-2 rounded-md
+               ' />
+               <span className='text-white mt-11 -ml-[368px] absolute'>max length 50 words</span>
+              
         </div>
 
         <button className="w-full bg-pink-500 text-white py-2 rounded-md hover:bg-pink-600 transition duration-300">

@@ -16,36 +16,38 @@ export default function Contact() {
     <Header />
       <section>
         <div className='  w-full mt-20'>
-          <div className='w-full  flex items-center justify-center'>
+          <div className='w-full  flex items-center justify-center '>
 
         <h1 className='md:text-4xl font-extrabold text-1xl text-white cursor-default select-none    '>Get In Touch</h1>
           </div>
-          <div className=' flex flex-wrap justify-around  w-full my-10   '>
+          <div className=' flex flex-wrap justify-around  w-full my-10  cursor-default '>
             <div className='bg-white rounded-lg flex items-center hover:scale-110 transition-all  flex-col my-4 py-2   md:h-36 w-44'>
-              <  FaLocationDot className='
-               w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
-              <h2 className='sm:font-medium md:font-semibold my-3'>Our Main Office</h2>
-              <p className='text-center'>SoHo 94 Broadway St New York, Ny 101</p>
+              <  FaLocationDot className='w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
+              <h2 className='sm:font-medium text-pink-500 md:font-semibold my-3'>Our Main Office</h2>
+              <p className='text-center'>Nirsa, Dhanbad Jharkhand , India  828204</p>
             </div>
             
             <div className='bg-white rounded-lg  flex items-center shadow-gray-600  hover:scale-110 transition-all  flex-col my-4 py-2    h-32   md:h-36 w-44'>
-            < FaPhone className='
-           w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
-              <h2 className='sm:font-medium  md:font-semibold my-3'>Phone Number</h2>
-              <p>+91 4500-5748-0000 </p>
-              <p>1800- 4500-4500</p>
+            < FaPhone className='w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
+              <h2 className='sm:font-medium text-pink-500  md:font-semibold my-3'>Phone Number</h2>
+              <Link to='http://facebook.com/BRamMurmu'>
+              <p>Please use <span className='text-blue-400'>Facebook</span> </p>
+              </Link>
+              <p>Other Social Media Links</p>
    </div>
             <div className='bg-white hover:scale-110 transition-all  rounded-lg shadow-lg shadow-grey-500/50  flex items-center flex-col my-4 py-2   h-32 w-44  md:h-36 '>
             < MdOutlineFax className='
               w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
-              <h2 className=' sm:font-medium md:font-semibold my-3'>Fax</h2>
-              <p>9500 - 9500 - 00 </p>
+              <h2 className=' sm:font-medium text-pink-500 md:font-semibold my-3'>Fax</h2>
+              <p>N/A for sometime </p>
    </div>
             <div className='bg-white  rounded-lg   flex items-center hover:scale-110 transition-all  flex-col my-4 py-2 h-32   md:h-36 w-44'>
             <  HiOutlineMail className='
               w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
-              <h2 className='sm:font-medium  md:font-semibold my-3'>Email</h2>
-              <p>Codybalram@dev.com </p>
+              <h2 className='sm:font-medium text-pink-500 md:font-semibold my-3'>Email</h2>
+              <Link to='http://www.gmail.com/balramm413'>
+              <p>Balram413@gmail.com</p>
+              </Link>
    </div>
           </div>
         </div>
