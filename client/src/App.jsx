@@ -13,7 +13,7 @@ import ClientPage from './Pages/ClientPage.jsx';
 import OurWork from './Pages/OurWork.jsx';
 import Course from './Pages/Course.jsx';
 import Services from './Pages/ServicePage.jsx'
-
+import Maintainance from './Pages/MaintanancePage.jsx'
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
             <Route path="/hireme" element={<HireMe />} />
             <Route path="/ourwork" element={<OurWork />} />
             <Route path="/service" element={<Services/>} />
+            <Route path="/maintainance" element={<Maintainance/>} />
 
           </Routes>
     </>
