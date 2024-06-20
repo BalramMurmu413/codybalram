@@ -30,7 +30,7 @@ export default function Contact() {
             <div className='bg-white rounded-lg  flex items-center shadow-gray-600  hover:scale-110 transition-all  flex-col my-4 py-2    h-32   md:h-36 w-44'>
             < FaPhone className='w-[20px] h-[20px] md:w-[50px] md:h-[50px] '/>
               <h2 className='sm:font-medium text-pink-500  md:font-semibold my-3'>Phone Number</h2>
-              <Link to='http://facebook.com/BRamMurmu'>
+              <Link to='https://www.facebook.com/bram.murmu'>
               <p>Please use <span className='text-blue-400'>Facebook</span> </p>
               </Link>
               <p>Other Social Media Links</p>

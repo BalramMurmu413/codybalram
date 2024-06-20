@@ -12,8 +12,8 @@ export default function OurWork() {
 
       <section className='w-full flex items-center mt-16 mb-10 min-h-36 justify-center bg-slate-900'>
         <div>
-          <h1 className='text-white text-xl font-bold  md:text-4xl'>Lorem ipsum dolor sit amet.</h1>
-          <p className='text-white text-sm font-semibold md:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, autem?</p>
+          <h1 className='text-white text-xl font-bold  md:text-4xl'>Building the web, one pixel at a time</h1>
+          <p className='text-white text-sm font-semibold md:text-base'>Code crafted with passion</p>
         </div>
       </section>
           <section className='w-full min-h-svh  text-white flex-col '>
@@ -48,7 +48,8 @@ export default function OurWork() {
                   </div>
                   <div className='w-full my-2 mx-2'>
                       <div className='w-full mr-16 flex justify-between'>
-                      <h1 className='text-pink-300 text-xl md:text-2xl font-bold'>codingtag.com</h1>       <Link to=''>
+              <h1 className='text-pink-300 text-xl md:text-2xl font-bold'>codingtag.com</h1>
+              <Link to='https://d53e7b78.codingtag.pages.dev/ ' target='_blank'>
               <button className='py-1 mr-8 px-4 rounded-md bg-pink-600 text-white font-semibold '>Visit</button>
                         
                           </Link>

@@ -20,10 +20,10 @@ export default function ServicePage() {
                   <div className="w-full flex  justify-between items-start">
                       <div>
                           
-            <h2 className=" text-base md:text-xl text-white ">
+            <h2 className=" text-base md:text-xl text-white text-start ">
               Here are some list of bundle that we offer to our clients
             </h2> 
-            <p className='text-white font-thin text-start'> ipsum dolor sit amet consectetur adipisicing elit. Ab, fuga.</p>
+            <p className='text-white font-thin text-start hidden lg:block'> ipsum dolor sit amet consectetur adipisicing elit. Ab, fuga.</p>
                       </div>
             <button className="md:py-1 px-2  bg-pink-500 flex text-white rounded-lg font-semibold hover:bg-pink-400 text-sm md:text-base items-center justify-center">
               View All <FaArrowRight className="inline h-8 " width={10} /> 

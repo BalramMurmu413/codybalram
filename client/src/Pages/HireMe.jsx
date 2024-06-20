@@ -141,7 +141,9 @@ const HireMe = () => {
               
         </div>
 
-        <button className="w-full bg-pink-500 text-white py-2 rounded-md hover:bg-pink-600 transition duration-300">
+        <button onClick={() => {
+                              alert("This feature is not in working please go to contact us page")
+                          }} className="w-full bg-pink-500 text-white py-2 rounded-md hover:bg-pink-600 transition duration-300">
           Submit
         </button>
       </div>

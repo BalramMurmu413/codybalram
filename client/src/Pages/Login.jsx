@@ -39,7 +39,9 @@ export default function Login() {
                           </label> 
                           <input type="password" placeholder='********'  className='text-black py-1 px-2 outline-none rounded-full' />
                           <p className='text-blue-500 cursor-pointer text-sm underline'>Forgot User Id or Password?</p>
-                          <button className='bg-sky-300 py-2 font-semibold text-white my-3 w-full rounded-lg'>Login</button>
+                          <button onClick={() => {
+                              alert("This feature is not in working please go to contact us page")
+                          }} className='bg-sky-300 py-2 font-semibold text-white my-3 w-full rounded-lg'>Login</button>
                       </div>
 
                       <div>

@@ -93,7 +93,7 @@ function Header() {
                         <Link to='/course'>
                         <li className='hover:bg-slate-700 pt-2 m-1 cursor-pointer pb-2 pl-4 pr-4 border-none rounded '>Courses</li>
                         </Link>
-                        <Link to='/maintanancePage'>
+                        <Link to='/service'>
                         <li className='hover:bg-slate-700 cursor-pointer pt-2 m-1 pb-2 pl-4 pr-4 border-none rounded '>Services </li>
                         </Link>
                         <Link to='/ourwork'>

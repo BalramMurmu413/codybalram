@@ -18,7 +18,7 @@ export default function Course() {
         <div className='w-full px-5 min-h-80  flex flex-col-reverse md:flex-row  justify-between items-center '>
 
           <div className=''>
-            <h1 className='text-pink-500 text-xl font-semibold md:text-4xl text-start'>Lorem, ipsum. <br />
+            <h1 className='text-pink-500 text-xl font-semibold md:text-4xl text-start'>Your vision, our expertise—creating digital excellence <br />
 <p className=' inline text-3xl  '>&lt; </p>      
             <ReactTyped  className="sm:text-xl md:text-4xl  font-bold text-orange-400 "
 
@@ -35,8 +35,8 @@ export default function Course() {
               />
               <p className=' inline-flex   text-3xl   font-bold '> &gt;</p>
         </h1>
-            <h3 className='text-pink-500 text-lg md:text-2xl text-start'>Lorem ipsum dolor sit amet.</h3>
-            <p className='text-start text-white font-normal'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae explicabo totam magnam in voluptate inventore?</p>
+            <h3 className='text-pink-500 text-lg md:text-2xl text-start'>Building the web, one pixel at a time.</h3>
+            <p className='text-start text-white font-normal'>Transforming concepts into intuitive, user-friendly websites</p>
           </div>
 
             

@@ -13,7 +13,7 @@ function Banner() {
         </h1 >
         <h1 className="text-white text-sm my-5 font-semibold">From Research to Design to Development, We Bring <br />
           Your Vision to Life</h1>
-          <Link to='/maintanancePage'>
+          <Link to='/contact'>
         <button className=" py-2 px-5 mb-2 hover:bg-slate-800 bg-slate-900 text-white rounded-full md:border-2">Let's Talk</button>
                         </Link>
         </div>
