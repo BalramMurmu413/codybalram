@@ -54,7 +54,15 @@ export default function OurWork() {
                         
                           </Link>
                       </div>
-                      <div className='flex flex-col  w-full justify-start items-start'>
+  <div className='w-full my-2 mx-2'>
+                      <div className='w-full mr-16 flex justify-between'>
+              <h1 className='text-pink-300 text-xl md:text-2xl font-bold'>codingtag.com</h1>
+              <Link to='https://sanjumake.pages.dev/ ' target='_blank'>
+              <button className='py-1 mr-8 px-4 rounded-md bg-pink-600 text-white font-semibold '>Visit</button>
+                        
+                          </Link>
+                      </div>
+                    <div className='flex flex-col  w-full justify-start items-start'>
                           <h1> This is an E-commerce website  </h1>
               <p className=' place-content-start text-start  '>
                 <span className='font-bold'>Used frameworks : </span>  
