@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function ShowCaseTwo() {
   return (
     <>
-      <div className=' flex flex-col-reverse md:flex-row border-2 bg-white  dark:bg-slate-800 px-2 py-4 rounded-lg  w-full m-auto' >
+      <div className=' flex flex-col-reverse md:flex-row border-2  dark:bg-slate-800 px-2 py-4 rounded-lg  w-full m-auto' >
               <div className=' flex flex-col-reverse w-full m-auto   '>
                   <div className='items-center justify-center flex flex-col '>
             <h1 className='sm:text-sm md:text-4xl m-5 text-white font-bold'>Welcome to my portfolio! </h1>

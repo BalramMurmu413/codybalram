@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <footer className=' bg-slate-900 cursor-default rounded-xl border-2 my-2   text-slate-100  flex flex-col   ' >
+   
       <div className=' bg-slate-900 my-2 py-8   text-slate-100 md:flex justify-around  w-full  grid grid-cols-2  '>
         <div className='mx-4'>
           <h1 className='font-bold text-2xl items-start'> Developer <hr/> </h1>
@@ -16,8 +17,10 @@ function Footer() {
             <div >
               <ul className='flex flex-row gap-4 my-3' >
               <li className='md:mx-5 cursor-pointer '><FaXTwitter className='md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-white hover:scale-125 transition-all border-zinc-300  rounded-full  '/></li>
-              <li className='md:mx-5 cursor-pointer '><FaSquareInstagram className='md:w-[30px] w-[20px] md:h-[30px] h-[20px]  text-white  hover:scale-125 transition-all border-zinc-300  rounded-full  '/></li>
+              <li className='md:mx-5 cursor-pointer '><FaSquareInstagram className='md:w-[30px] w-[20px] md:h-[30px] h-[20px ]  text-white  hover:scale-125 transition-all border-zinc-300  rounded-full  '/></li>
+             
               <li className='md:mx-5 cursor-pointer '><IoLogoWhatsapp className='md:w-[30px] w-[20px] md:h-[30px] h-[20px]     text-white  hover:scale-125 transition-all border-zinc-300   rounded-full '/></li>
+              
               </ul>
           </div>
         </div>       

@@ -54,14 +54,9 @@ export default function OurWork() {
                         
                           </Link>
                       </div>
-  <div className='w-full my-2 mx-2'>
-                      <div className='w-full mr-16 flex justify-between'>
-              <h1 className='text-pink-300 text-xl md:text-2xl font-bold'>codingtag.com</h1>
-              <Link to='https://sanjumake.pages.dev/ ' target='_blank'>
-              <button className='py-1 mr-8 px-4 rounded-md bg-pink-600 text-white font-semibold '>Visit</button>
-                        
-                          </Link>
-                      </div>
+                      
+                      
+ 
                     <div className='flex flex-col  w-full justify-start items-start'>
                           <h1> This is an E-commerce website  </h1>
               <p className=' place-content-start text-start  '>
@@ -92,7 +87,29 @@ export default function OurWork() {
                           <h1> This is an E-commerce website  </h1>
               <p className=' place-content-start text-start  '>
                 <span className='font-bold'>Used frameworks : </span>  
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dignissimos quidem quae, velit praesentium ab quia voluptatibus minus facere culpa.</p>
+              React, Vue.js, Next.js, or Astro for frontend development.</p>
+                      </div>
+          </div>
+            </div>
+          {/* ending of card */}
+          
+          {/* my work card */}
+          <div className='w-full my-2  md:flex-row flex flex-col bg-slate-900  border-2'>
+          <div className='md:mr-5'>
+                      <img src={computer} alt="" className=' md:w-96 w-full' />
+                  </div>
+                  <div className='w-full my-2 mx-2'>
+                      <div className='w-full mr-16 flex justify-between'>
+                      <h1 className='text-pink-300 text-xl md:text-2xl font-bold'>sanjumakeup.com</h1>
+                      <Link to='https://sanjumake.pages.dev/ ' target='_black'>
+                          <button className='py-1 mr-8 px-4 rounded-md bg-pink-600 text-white font-semibold '>Visit</button>
+                          </Link>
+                      </div>
+                      <div className='flex flex-col w-full items-start'>
+                          <h1> This is an Make up Website </h1>
+              <p className=' place-content-start text-start  '>
+                <span className='font-bold'>Used frameworks : </span>  
+             React, Vue.js, Next.js, or Astro for frontend development.</p>
                       </div>
           </div>
             </div>
